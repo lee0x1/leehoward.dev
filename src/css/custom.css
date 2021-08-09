@@ -24,6 +24,10 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.footer, .footer-dark {
+  --ifm-footer-background-color: #296596;
+}
+
 .header-github-link:hover {
   opacity: 0.6;
 }
