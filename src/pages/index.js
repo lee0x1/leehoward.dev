@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+// import Link from '@docusaurus/Link';
+// import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 
@@ -52,17 +52,20 @@ Feature.propTypes = {
 };
 
 function Home() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  // not using context for now
+  // const context = useDocusaurusContext();
+  // const { siteConfig = {} } = context;
   return (
     <Layout description="Portfolio, Blog, and Docs all in one place!">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
+          <h1 className="hero__title">Hi I&#39;m Lee.</h1>
           <p className={('hero__subtitle', styles.heroSubtitle)}>
-            {siteConfig.tagline}
+            I&#39;m a software engineer and enthusiast of most things tech. This
+            is my personal website which functions as a blog along with docs of
+            things I&#39;ve learned over the years.
           </p>
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <div className={styles.buttons}>
+          {/* <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -72,7 +75,7 @@ function Home() {
             >
               About Me
             </Link>
-          </div>
+          </div> */}
         </div>
       </header>
       <main>
