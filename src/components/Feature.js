@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import clsx from 'clsx';
 
-import styles from '../pages/index.module.css';
+import styles from '../pages/index.module.scss';
 
 export const features = [
   {

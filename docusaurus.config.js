@@ -84,6 +84,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Lee G. Howard. Built with Docusaurus.`,
     },
   },
+  plugins: [require.resolve('docusaurus-plugin-sass')],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -97,7 +98,7 @@ module.exports = {
           // Please change this to your repo.
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/scss/custom.scss'),
         },
       },
     ],
