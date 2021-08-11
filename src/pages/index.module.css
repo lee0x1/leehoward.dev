@@ -7,7 +7,6 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
 }
@@ -39,8 +38,16 @@
 
 .heroSubtitle {
   margin: 0 auto;
-  /* border-bottom: dotted; */
-  max-width: 30%;
   border-width: thin;
-  text-align: center;
+}
+
+.flexColumns{
+  display: flex;
+  justify-content: center;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
