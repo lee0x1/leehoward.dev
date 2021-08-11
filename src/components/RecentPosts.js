@@ -11,7 +11,7 @@ import recentPosts from '../../.docusaurus/docusaurus-plugin-content-blog/defaul
 function RecentPosts(props) {
   return (
     <>
-      <div className="col col--6">
+      <div className="col">
         <h1 className="">Recent Posts</h1>
         <ul>
           {recentPosts.items.slice(0, props.posts).map((item, index) => (
