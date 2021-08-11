@@ -45,6 +45,18 @@
     display: flex;
     align-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     width: 100%;
+}
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.selfieContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

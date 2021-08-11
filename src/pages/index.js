@@ -17,14 +17,15 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 className="hero__title">Hi I&#39;m Lee.</h1>
-              <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
-                I&#39;m a software engineer and enthusiast of most things tech.
-                This is my personal website which functions as a blog along with
-                docs of things I&#39;ve learned over the years. Have a look
-                around you might find something useful!
-              </p>
-              {/* <div className={styles.buttons}>
+              <div className={styles.introContainer}>
+                <h1 className="hero__title">Hi I&#39;m Lee.</h1>
+                <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
+                  I&#39;m a software engineer and enthusiast of most things
+                  tech. This is my personal website which functions as a blog
+                  along with docs of things I&#39;ve learned over the years.
+                  Have a look around you might find something useful!
+                </p>
+                {/* <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -35,9 +36,12 @@ function Home() {
               About Me
             </Link>
           </div> */}
+              </div>
             </div>
-            <div className={`col ${styles.center}`}>
-              <img src="img/me.jpg" height="320" width="320"></img>
+            <div className={`col`}>
+              <div className={styles.selfieContainer}>
+                <img src="img/me.jpg" height="320" width="320"></img>
+              </div>
             </div>
           </div>
         </div>
