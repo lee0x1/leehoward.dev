@@ -12,7 +12,7 @@ function RecentPosts(props) {
   return (
     <>
       <div className="col col--6">
-        <header className="hero__title">Recent Post</header>
+        <h1 className="">Recent Posts</h1>
         <ul>
           {recentPosts.items.slice(0, props.posts).map((item, index) => (
             <li key={index}>

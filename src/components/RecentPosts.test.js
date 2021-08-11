@@ -6,7 +6,8 @@ import RecentPosts from './RecentPosts';
 
 test('has correct header text', () => {
   render(<RecentPosts posts={1} />);
-  expect(screen.getByRole('banner')).toHaveTextContent('Recent Post');
+  // test is false positive s at the end of Post doesn't matter
+  expect(screen.getByRole('heading')).toHaveTextContent('Recent Posts');
 });
 
 test('has one post in list', () => {
