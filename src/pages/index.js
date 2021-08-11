@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 // import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
+import RecentPosts from '../components/RecentPosts';
 
 const features = [
   {
@@ -88,6 +89,14 @@ function Home() {
       </div>
 
       <main>
+        <section className={styles.recentPosts}>
+          <div className="container">
+            <div className="row">
+              <RecentPosts posts={10} />
+            </div>
+          </div>
+        </section>
+
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
