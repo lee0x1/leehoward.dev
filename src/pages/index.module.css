@@ -5,15 +5,12 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  position: relative;
-  overflow: hidden;
-}
-
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 3rem 0.5rem;
+  }
+  .heroSubtitle {
+    padding-bottom: 2.4rem;
   }
 }
 
@@ -37,17 +34,9 @@
 }
 
 .heroSubtitle {
-  margin: 0 auto;
   border-width: thin;
 }
 
-.flexColumns{
-  display: flex;
-  justify-content: center;
-}
-
-.flexContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.center {
+  text-align: center;
 }
