@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import styles from './index.module.scss';
-import RecentPosts from '../components/RecentPosts';
+import RecentPost from '../components/RecentPost';
 import FeaturedProject, { projects } from '../components/FeaturedProject';
 
 function Home() {
@@ -35,7 +35,7 @@ function Home() {
         <section className={styles.recentPosts}>
           <div className="container">
             <div className="row">
-              <RecentPosts posts={10} />
+              <RecentPost posts={10} />
             </div>
           </div>
         </section>
