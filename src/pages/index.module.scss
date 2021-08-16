@@ -20,19 +20,6 @@
   justify-content: center;
 }
 
-.features {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-}
-
-.featureImage {
-  height: 200px;
-  width: 200px;
-}
-
 .heroSubtitle {
   border-width: thin;
 }
@@ -47,6 +34,11 @@
     align-items: center;
     padding: 2rem 2rem;
     width: 100%;
+}
+
+.featuredProjects {
+  
+  padding: 2rem 2rem;
 }
 
 .introContainer {

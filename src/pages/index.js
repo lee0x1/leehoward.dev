@@ -1,16 +1,11 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-// import Link from '@docusaurus/Link';
-// import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.scss';
 import RecentPosts from '../components/RecentPosts';
-import Feature, { features } from '../components/Feature';
+import FeaturedProject, { projects } from '../components/FeaturedProject';
 
 function Home() {
-  // not using context for now
-  // const context = useDocusaurusContext();
-  // const { siteConfig = {} } = context;
   return (
     <Layout description="Portfolio, Blog, and Docs all in one place!">
       <div className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -25,17 +20,6 @@ function Home() {
                   along with docs of things I&#39;ve learned over the years.
                   Have a look around you might find something useful!
                 </p>
-                {/* <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('about/')}
-            >
-              About Me
-            </Link>
-          </div> */}
               </div>
             </div>
             <div className={`col`}>
@@ -56,16 +40,19 @@ function Home() {
           </div>
         </section>
 
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+        {projects && projects.length > 0 && (
+          <>
+            <section className={styles.featuredProjects}>
+              <div className="container">
+                <h1>Projects</h1>
+                <div className="row">
+                  {projects.map((props, idx) => (
+                    <FeaturedProject key={idx} {...props} />
+                  ))}
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </>
         )}
       </main>
     </Layout>
