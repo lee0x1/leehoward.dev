@@ -24,7 +24,12 @@ function Home() {
             </div>
             <div className={`col`}>
               <div className={styles.selfieContainer}>
-                <img src="img/me.jpg" height="320" width="320"></img>
+                <img
+                  className={styles.selfieImage}
+                  src="img/me.jpg"
+                  height="320"
+                  width="320"
+                ></img>
               </div>
             </div>
           </div>
