@@ -30,8 +30,21 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-.footer, .footer-dark {
+.footer {
   --ifm-footer-background-color: #296596;
+}
+
+html[data-theme='dark'] .footer {
+  --ifm-footer-background-color: #2e2e2e;
+}
+
+html[data-theme='dark'] .hero__title {
+  --ifm-heading-color: #eee;
+}
+
+html[data-theme='dark'] .hero--primary {
+  --ifm-hero-background-color: #424141;
+  --ifm-hero-text-color: #9a9a9a;
 }
 
 .header-github-link:hover {
