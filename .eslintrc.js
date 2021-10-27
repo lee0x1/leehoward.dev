@@ -23,5 +23,5 @@ module.exports = {
   },
   plugins: ['react'],
   ignorePatterns: ['.docusaurus', 'build'],
-  rules: {},
+  rules: { 'prettier/prettier': ['error', { endOfLine: 'auto' }] },
 };
