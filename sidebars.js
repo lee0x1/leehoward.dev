@@ -11,6 +11,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Node.js',
+      items: ['nodejs/nvmwindows'],
+    },
+    {
+      type: 'category',
       label: 'Notes',
       items: ['notes/googlemock'],
     },
