@@ -14,8 +14,8 @@
     "lint:js:fix": "eslint ./ --fix",
     "lint:md": "markdownlint '**/*.md'",
     "lint:md:fix": "markdownlint '**/*.md' --fix",
-    "test": "jest --coverage && coveralls < coverage/lcov.info",
-    "test:local": "jest --verbose"
+    "test:cov": "jest --coverage && coveralls < coverage/lcov.info",
+    "test": "jest --verbose"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-beta.4",
