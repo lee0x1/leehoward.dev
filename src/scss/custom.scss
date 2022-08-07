@@ -27,6 +27,14 @@ html[data-theme='dark'] {
   }
 }
 
+@media (max-width: 996px){
+  .navbar__items {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
