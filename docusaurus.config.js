@@ -44,47 +44,47 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Welcome',
-              to: 'docs/',
-            },
-            {
-              label: 'Docusaurus Style Guide',
-              to: 'docs/docusaurus/style-guide/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/leehowardx',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/leehowardx',
-            },
-          ],
-        },
-      ],
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'Welcome',
+      //         to: 'docs/',
+      //       },
+      //       {
+      //         label: 'Docusaurus Style Guide',
+      //         to: 'docs/docusaurus/style-guide/',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Community',
+      //     items: [
+      //       {
+      //         label: 'Stack Overflow',
+      //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //       },
+      //       {
+      //         label: 'Twitter',
+      //         href: 'https://twitter.com/leehowardx',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       {
+      //         label: 'Blog',
+      //         to: 'blog',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/leehowardx',
+      //       },
+      //     ],
+      //   },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} Lee Howard. Built with Docusaurus.`,
     },
   },
