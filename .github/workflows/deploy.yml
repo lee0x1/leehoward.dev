@@ -18,9 +18,13 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm ci
-      - name: Build website
+      - name: Lint Javascript
+        run: npm run lint:js
+      - name: Run Unit Tests
+        run: npm test
+      - name: Build Website
         run: npm run build
 
       # Popular action to deploy to GitHub Pages:
