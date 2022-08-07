@@ -5,17 +5,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 export const projects = [
   {
     title: 'Project X',
-    imageUrl: 'https://via.placeholder.com/320x240',
+    imageUrl: 'https://picsum.photos/id/1022/320/240',
     description: <>Project X is a placeholder image and description.</>,
   },
   {
     title: 'Project Y',
-    imageUrl: 'https://via.placeholder.com/320x240',
+    imageUrl: 'https://picsum.photos/id/1002/320/240',
     description: <>Project Y is a placeholder image and description.</>,
   },
   {
     title: 'Project Z',
-    imageUrl: 'https://via.placeholder.com/320x240',
+    imageUrl: 'https://picsum.photos/id/120/320/240',
     description: <>Project Z is a placeholder image and description.</>,
   },
 ];
