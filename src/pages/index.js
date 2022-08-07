@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './index.module.scss';
-import FeaturedProject, { projects } from '../components/FeaturedProject';
+// import FeaturedProject, { projects } from '../components/FeaturedProject';
 
 function Home() {
   return (
