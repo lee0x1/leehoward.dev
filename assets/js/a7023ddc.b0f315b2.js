@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwww_leegibsonhoward_com=self.webpackChunkwww_leegibsonhoward_com||[]).push([[713],{3457:e=>{e.exports=JSON.parse('[{"label":"blog","permalink":"/blog/tags/blog","count":1},{"label":"docusaurus","permalink":"/blog/tags/docusaurus","count":1}]')}}]);

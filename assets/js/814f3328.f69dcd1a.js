@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwww_leegibsonhoward_com=self.webpackChunkwww_leegibsonhoward_com||[]).push([[535],{5641:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Docusaurus as My Blog Platform","permalink":"/blog/docusaurus-as-my-blog-platform"}]}')}}]);

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://leehoward.dev/blog</id>
+    <title>Lee Howard Blog</title>
+    <updated>2021-01-19T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://leehoward.dev/blog"/>
+    <subtitle>Lee Howard Blog</subtitle>
+    <icon>https://leehoward.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Docusaurus as My Blog Platform]]></title>
+        <id>docusaurus-as-my-blog-platform</id>
+        <link href="https://leehoward.dev/blog/docusaurus-as-my-blog-platform"/>
+        <updated>2021-01-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As the title says, "Docusaurus as My Blog Platform". Wait a minute there's]]></summary>
+        <content type="html"><![CDATA[<p>As the title says, "Docusaurus as My Blog Platform". Wait a minute there's
+more to it. First let me say that I've tried alot of blogging software.
+From the traditional Wordpress to Gatsby, and the JAM Stack.</p><p>I love the new modern tooling that web development has adopted and I feel it's
+important to embrace change but most of all, as a IT Professional and
+undergraduate in Computer Science, I need a home not only for a blog but just
+importantly a home for my ideas, papers or just about any self contained piece
+of code or documentation collected in one place where others and myself alike
+can go and find it.</p><p>Docusaurus is going to help me with this because its a two-fold. Docs and Blog.
+I have some work ahead of me in order to setup the layout I'm in search of. But
+I'm all in for it.</p>]]></content>
+        <author>
+            <name>Lee Howard</name>
+            <uri>https://github.com/leehowardx</uri>
+        </author>
+        <category label="blog" term="blog"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
