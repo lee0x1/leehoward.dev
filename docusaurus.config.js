@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'Lee G. Howard',
-  tagline: 'WELCOME TO THE HOME OF',
-  url: 'https://www.leegibsonhoward.com',
+  title: 'Lee Howard',
+  tagline: 'development',
+  url: 'leehoward.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'leegibsonhoward', // Github org/user name.
-  projectName: 'www.leegibsonhoward.com', // Github repo name.
+  organizationName: 'leehowardx', // Github org/user name.
+  projectName: 'leehoward.dev', // Github repo name.
   themeConfig: {
     docs: {
       sidebar: {
@@ -15,9 +15,9 @@ module.exports = {
       },
     },
     navbar: {
-      title: 'Lee G. Howard',
+      title: 'Lee Howard',
       logo: {
-        alt: 'Lee G. Howard Logo',
+        alt: 'Lee Howard Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -35,7 +35,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/leegibsonhoward',
+          href: 'https://github.com/leehowardx',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -67,7 +67,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/leegibsonhoward',
+              href: 'https://twitter.com/leehowardx',
             },
           ],
         },
@@ -80,12 +80,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/leegibsonhoward',
+              href: 'https://github.com/leehowardx',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Lee G. Howard. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Lee Howard. Built with Docusaurus.`,
     },
   },
   plugins: [require.resolve('docusaurus-plugin-sass')],
