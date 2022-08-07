@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Lee Howard',
-  tagline: 'development',
-  url: 'leehoward.dev',
+  tagline: 'software development',
+  url: 'https://leehoward.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

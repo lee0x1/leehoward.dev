@@ -1,9 +1,9 @@
 ---
 slug: docusaurus-as-my-blog-platform
 title: Docusaurus as My Blog Platform
-author: Lee G. Howard
+author: Lee Howard
 author_title: Computer Programmer
-author_url: https://github.com/leegibsonhoward
+author_url: https://github.com/leehowardx
 author_image_url: https://avatars0.githubusercontent.com/u/1238330?s=60&v=4
 tags: [blog, docusaurus]
 ---
