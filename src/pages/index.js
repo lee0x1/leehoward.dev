@@ -13,7 +13,7 @@ function Home() {
           </div>
         </section>
 
-        {projects && projects.length > 0 && (
+        {/* {projects && projects.length > 0 && (
           <>
             <section className={styles.featuredProjects}>
               <div className="container">
@@ -26,7 +26,7 @@ function Home() {
               </div>
             </section>
           </>
-        )}
+        )} */}
       </main>
     </Layout>
   );
