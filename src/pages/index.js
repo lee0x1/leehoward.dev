@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './index.module.scss';
-import RecentPost from '../components/RecentPost';
 import FeaturedProject, { projects } from '../components/FeaturedProject';
 
 function Home() {
@@ -11,7 +10,6 @@ function Home() {
         <section className={styles.recentPosts}>
           <div className="container">
             <div className="row">
-              <RecentPost posts={10} />
             </div>
           </div>
         </section>
