@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleehoward_dev=self.webpackChunkleehoward_dev||[]).push([[717],{2170:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/gaming","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

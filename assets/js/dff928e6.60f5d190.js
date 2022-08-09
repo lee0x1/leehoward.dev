@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleehoward_dev=self.webpackChunkleehoward_dev||[]).push([[951],{4049:e=>{e.exports=JSON.parse('{"label":"gaming","permalink":"/blog/tags/gaming","allTagsPath":"/blog/tags","count":1}')}}]);

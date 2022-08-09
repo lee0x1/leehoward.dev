@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://leehoward.dev/blog</id>
     <title>Lee Howard Blog</title>
-    <updated>2021-01-19T00:00:00.000Z</updated>
+    <updated>2022-08-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://leehoward.dev/blog"/>
     <subtitle>Lee Howard Blog</subtitle>
     <icon>https://leehoward.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Looking for a SNES RPG]]></title>
+        <id>snes-rpg</id>
+        <link href="https://leehoward.dev/blog/snes-rpg"/>
+        <updated>2022-08-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Growing up in the 80's, and 90's allowed me to play some of the greatest games]]></summary>
+        <content type="html"><![CDATA[<p>Growing up in the 80's, and 90's allowed me to play some of the greatest games
+of all time. With aproximately 717 or so games, choosing a game seemed like a
+daunting task.</p><p>I will actually take a little time playing a few games from childhood memory
+that I never complete and decide the one that feels the best with the most
+interesting story and I will play from beginning to end. </p><p><img loading="lazy" src="/assets/images/snes-logo-202e09bf49aea76c02ef159975eb1fe0.png" width="860" height="252" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Lee Howard</name>
+            <uri>https://github.com/leehowardx</uri>
+        </author>
+        <category label="snes" term="snes"/>
+        <category label="gaming" term="gaming"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus as My Blog Platform]]></title>
         <id>docusaurus-as-my-blog-platform</id>
