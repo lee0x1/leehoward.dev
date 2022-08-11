@@ -25,6 +25,10 @@
   }
 }
 
+html[data-theme='dark'] {
+  --ifm-color-primary: #ffde59;
+}
+
 .footer {
   --ifm-footer-background-color: white;
   --ifm-footer-color: #333333;
