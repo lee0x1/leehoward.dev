@@ -20,6 +20,7 @@ module.exports = {
         alt: 'Lee Howard Logo',
         src: 'img/logo.png',
       },
+      hideOnScroll: true,
       items: [
         {
           to: 'docs/',
