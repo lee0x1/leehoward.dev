@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Lee Howard',
+  title: 'leehoward.dev',
   tagline: 'software development',
   url: 'https://leehoward.dev',
   baseUrl: '/',
@@ -15,9 +15,9 @@ module.exports = {
       },
     },
     navbar: {
-      title: 'Lee Howard',
+      title: 'leehoward.dev',
       logo: {
-        alt: 'Lee Howard Logo',
+        alt: 'leehoward.dev Logo',
         src: 'img/logo.png',
       },
       hideOnScroll: true,
