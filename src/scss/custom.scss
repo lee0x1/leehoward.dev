@@ -42,6 +42,7 @@
   justify-content: center;
 }
 
+/* Custom Wrapper */
 .home-wrapper {
   display: flex;
   
@@ -55,12 +56,73 @@
   }
 }
 
-@media (max-width: 1200px){
-  h1 {
-    --ifm-h1-font-size: 2.2rem;
+/* Magic Breakpoints 😂 */
+
+/* L - Breakpoint */
+@media (max-width: 1015px){
+  
+  .home-wrapper {
+    
+    h1 {
+      font-size: 6rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
   }
+
 }
 
+/* M  Breakpoint */
+
+@media (max-width: 827px){
+  
+  .home-wrapper {
+    
+    h1 {
+      font-size: 3.1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+  }
+
+}
+
+/* S Breakpoint */
+
+@media (max-width: 360px){
+  
+  .home-wrapper {
+    
+    h1 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+  }
+
+}
+
+/* XS Breakpoint */
+
+@media (max-width: 280px){
+  
+  .home-wrapper {
+    
+    h1 {
+      font-size: 2.1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+  }
+
+}
  /* Swap title/logo and menu button on mobile only */
 @media (max-width: 996px){
   .navbar__items {
