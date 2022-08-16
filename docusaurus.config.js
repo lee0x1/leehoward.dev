@@ -86,7 +86,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Lee Howard. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Lee Howard.`,
     },
   },
   plugins: [require.resolve('docusaurus-plugin-sass')],
