@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkleehoward_dev=self.webpackChunkleehoward_dev||[]).push([[716],{4011:(e,l,n)=>{n.r(l),n.d(l,{default:()=>o});var a=n(7294),t=n(7360);const o=function(){return a.createElement(t.Z,{description:"Portfolio, Blog, and Docs all in one place!"},a.createElement("main",null))}}}]);
