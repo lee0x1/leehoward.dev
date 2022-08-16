@@ -33,7 +33,26 @@
 
   /* Background Colors */
   --ifm-footer-background-color: rgb(36, 37, 38);
+  --ifm-hero-background-color: rgb(27, 27, 29);
 
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.home-wrapper {
+  display: flex;
+  
+  h1 {
+    font-size: 8rem;
+    line-height: 1.2;
+  }
+
+  p{
+    line-height: 1.4;
+  }
 }
 
 @media (max-width: 1200px){
