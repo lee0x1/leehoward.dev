@@ -6,23 +6,38 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'C Programming Language',
-      items: ['c/escape'],
-    },
-    {
-      type: 'category',
-      label: 'Node.js',
-      items: ['nodejs/nvmwindows'],
-    },
-    {
-      type: 'category',
-      label: 'Notes',
-      items: ['notes/googlemock'],
-    },
-    {
-      type: 'category',
-      label: 'Docusaurus',
-      items: ['docusaurus/style-guide'],
+      label: 'Software Development',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'C++ Programming',
+          items: [
+            {
+              type: 'category',
+              label: 'Testing',
+              items: ['software-dev/cpp/testing/googlemock'],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'C Programming',
+          items: ['software-dev/c/escape'],
+        },
+        {
+          type: 'category',
+          label: 'Node.js',
+          items: ['software-dev/nodejs/nvmwindows'],
+        },
+        {
+          type: 'category',
+          label: 'Docusaurus',
+          items: ['software-dev/docusaurus/style-guide'],
+        },
+      ],
     },
   ],
 };
