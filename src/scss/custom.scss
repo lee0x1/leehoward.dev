@@ -56,10 +56,10 @@
   }
 }
 
-/* Magic Breakpoints 😂 */
+/* Breakpoints */
 
-/* L - Breakpoint */
-@media (max-width: 1015px){
+/* Desktops, large screens */
+@media (max-width: 1200px){
   
   .home-wrapper {
     
@@ -67,20 +67,20 @@
       font-size: 6rem;
     }
     p {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
   }
 
 }
 
-/* M  Breakpoint */
+/* Small screens, laptops */
 
-@media (max-width: 827px){
+@media (max-width: 1024px){
   
   .home-wrapper {
     
     h1 {
-      font-size: 3.1rem;
+      font-size: 4rem;
     }
     p {
       font-size: 1.1rem;
@@ -90,14 +90,14 @@
 
 }
 
-/* S Breakpoint */
+/* iPads, Tablets */
 
-@media (max-width: 360px){
+@media (max-width: 768px){
   
   .home-wrapper {
     
     h1 {
-      font-size: 2.8rem;
+      font-size: 3rem;
     }
     p {
       font-size: 1.1rem;
@@ -107,14 +107,14 @@
 
 }
 
-/* XS Breakpoint */
+/* Smart Phone */
 
-@media (max-width: 280px){
+@media (max-width: 480px){
   
   .home-wrapper {
     
     h1 {
-      font-size: 2.1rem;
+      font-size: 2.5rem;
     }
     p {
       font-size: 1.1rem;
@@ -123,6 +123,7 @@
   }
 
 }
+
  /* Swap title/logo and menu button on mobile only */
 @media (max-width: 996px){
   .navbar__items {
