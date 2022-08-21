@@ -14,6 +14,9 @@ module.exports = {
         {
           type: 'category',
           label: 'C++ Programming',
+          link: {
+            type: 'generated-index',
+          },
           items: [
             {
               type: 'category',
